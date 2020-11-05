@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 18px;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  margin: 20px;
+}
+
+.logo{
+  display: inline;
+  float: left;
+}
+
+.logo img{
+  width: 70%;
+}
+
+.menu ul{
+  margin-top: 15px;
+  list-style: none;
+  float: right;
+}
+
+.menu ul li{
+  display: inline;
+}
+
+.menu .active a{
+  border-radius: 40%;
+  background-color: white;
+  color: black;
+}
+
+.menu a:hover{
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.title{
+  display: absolute;
+  transform: translate(18%, 220px);
+}
+
+.title h1{
+  color: white;
+  font-size: 80px;
+}
+
+.button h3{
+  text-align: center;
+  margin-top: 235px;
+  transition: 0.6s ease;
+}
+
+.button h3 a{
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.button h3 a:hover{
+  color: black;
+  background-color: white;
+}
